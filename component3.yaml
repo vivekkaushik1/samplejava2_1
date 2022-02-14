@@ -1,0 +1,8 @@
+---
+Avengers:
+  CaptainAmerica: enabled
+  Hulk: enabled
+  IronMan: disabled
+  BlackWidow: disabled
+  SpiderMan: enabled
+  greenLantern: enabled

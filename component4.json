@@ -1,0 +1,10 @@
+{
+    "JusticeLeague": {
+        "Superman": "enabled",
+        "Batman": "enabled",
+        "Wonderwoman": "disabled",
+        "flash": "disabled",
+        "Cybertron": "enabled",
+        "Aquaman":"enabled"
+    }
+}

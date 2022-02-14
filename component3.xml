@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Avengers>
+  <CaptainAmerica>enabled</CaptainAmerica>
+  <Hulk>enabled</Hulk>
+  <IronMan>disabled</IronMan>
+  <BlackWidow>disabled</BlackWidow>
+  <SpiderMan>enabled</SpiderMan>
+  <greenLantern>enabled</greenLantern>
+</Avengers>
