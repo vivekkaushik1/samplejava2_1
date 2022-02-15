@@ -1,4 +1,4 @@
-    //def appName='E2E_App'
+ //def appName='E2E_App'
     def appName='App_2'
     def snapName=''
     //def deployName = 'TEST'
@@ -8,6 +8,7 @@
     def configFilePath = "paymentService"
     def fileNamePrefix ='exported_file_'
     def fullFileName="${appName}-${deployName}-${currentBuild.number}.${exportFormat}"
+   // def fullFileName="Comp_2"
     def changeSetId=""
     def snapshotName=""
     def exporterName ='returnAllData' 
