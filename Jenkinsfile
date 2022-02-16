@@ -1,29 +1,21 @@
- //def appName='E2E_App'
-    def appName='App_2'
+def appName='App_2'
     def snapName=''
-    //def deployName = 'TEST'
-    //def deployName ='PerfApp91_dep__1'	
     def deployName ='Dep_1'
     def exportFormat ='json'
     def configFilePath = "paymentService"
     def fileNamePrefix ='exported_file_'
     def fullFileName="${appName}-${deployName}-${currentBuild.number}.${exportFormat}"
-   // def fullFileName="Comp_2"
     def changeSetId=""
     def snapshotName=""
     def exporterName ='returnAllData' 
-
-    // def namePath ="E2E/pipelineUpload/${currentBuild.number}"
-   //def namePath ='Comp_2'
-   def namePath ="App_2/components/Comp_3"
-//def namePath ="App_2/components/Comp_1${JOB_NAME}/"
+    def namePath ="Comp_1"
 pipeline {
     agent any
     stages {
         stage('Clone repository') {               
            steps{
                 // checkout scm
-                git branch: 'master', url: 'https://github.com/rajkumat01/samplejava2'
+                git branch: 'master', url: 'https://github.com/vivekkaushik1/samplejava'
            }
         }     
         stage('Validate Configurtion file'){
